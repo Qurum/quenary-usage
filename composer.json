@@ -1,0 +1,18 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Qurum/quenary"
+    }
+  ],
+  "require": {
+    "qurum/quenary": "dev-export",
+    "php-di/php-di": "^6.4",
+    "monolog/monolog": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
